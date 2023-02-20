@@ -1,0 +1,43 @@
+table {
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #ddd;
+  }
+  
+  .element {
+    position: relative;
+  }
+  
+  .number {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 10px;
+  }
+  
+  .symbol {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .name {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    font-size: 10px;
+  }
+  
